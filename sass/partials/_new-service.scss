@@ -1,0 +1,20 @@
+.new-service {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.new-service-content {
+    width: 50%;
+    float: left;
+}
+
+.new-service-img {
+    width: 45%;
+    float: left;
+    img {
+        width: 60%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+}

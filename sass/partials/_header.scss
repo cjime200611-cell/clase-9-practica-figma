@@ -1,0 +1,40 @@
+// Header
+#header {
+    margin: 40px 0;
+    position: relative;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+#sign-btn {
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: $color-primary;
+    justify-content: left;
+    color: white;
+}
+
+#login-btn {
+    border-style: none;
+    padding: 10px 10px;
+    background-color: #f5f7fa;
+    color: $color-primary;
+    font-weight: bold;
+}
+
+#nav a {
+    font-size: 0.70;
+    font-weight: 100;
+    color: #000;
+    text-decoration: none;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+}

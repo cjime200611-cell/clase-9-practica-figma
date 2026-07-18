@@ -1,2 +1,9 @@
-$colorMain: #ffffff;
+@import "settings";
+@import "lib/reset";
+
+@import "partials/helpers";
+@import "partials/tag-general";
+@import "partials/header";
+@import "partials/new-service";
+@import "partials/features";
 
