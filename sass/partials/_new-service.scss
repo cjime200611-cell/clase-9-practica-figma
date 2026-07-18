@@ -1,12 +1,15 @@
 .new-service {
     padding: 60px 0;
     display: flex;
-    justify-content: center;
 }
 
 .new-service-content {
     width: 50%;
     float: left;
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
 .new-service-img {
@@ -14,7 +17,7 @@
     float: left;
     img {
         width: 60%;
-        margin-left: 10%;
-        margin-bottom: 10%;
+        margin-left: 20%;
+        margin-top: 50px;
     }
 }

@@ -415,7 +415,7 @@ p {
 }
 
 #header {
-  margin: 40px 0;
+  margin: 30px 0px;
   position: relative;
 }
 
@@ -430,7 +430,6 @@ p {
   padding: 5px 10px;
   border-radius: 3px;
   background-color: #4CAF4F;
-  justify-content: left;
   color: white;
 }
 
@@ -447,6 +446,7 @@ p {
   font-weight: 100;
   color: #000;
   text-decoration: none;
+  margin-top: 5px;
 }
 
 #logo {
@@ -457,12 +457,15 @@ p {
 .new-service {
   padding: 60px 0;
   display: flex;
-  justify-content: center;
 }
 
 .new-service-content {
   width: 50%;
   float: left;
+  margin-left: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
 }
 
 .new-service-img {
@@ -471,8 +474,8 @@ p {
 }
 .new-service-img img {
   width: 60%;
-  margin-left: 10%;
-  margin-bottom: 10%;
+  margin-left: 20%;
+  margin-top: 50px;
 }
 
 .features-content {
@@ -480,7 +483,29 @@ p {
 }
 
 .feature-img {
+  display: flex;
   flex-direction: row;
+  gap: 130px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.community {
+  display: flex;
+  flex-direction: row;
+}
+
+.community-content {
+  text-align: center;
+}
+
+.community-card {
+  width: 270px;
+  height: 200px;
+  padding: 25px;
+  border: 1px solid;
+  margin: 25px;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

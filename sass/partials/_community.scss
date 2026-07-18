@@ -1,0 +1,17 @@
+.community {
+    display: flex;
+    flex-direction: row;
+}
+
+.community-content {
+    text-align: center;
+}
+
+.community-card {
+    width: 270px;
+    height: 200px;
+    padding: 25px;
+    border: 1px solid;
+    margin: 25px;
+    align-items: center;
+}

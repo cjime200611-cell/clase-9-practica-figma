@@ -3,5 +3,9 @@
 }
 
 .feature-img {
+    display: flex;
     flex-direction: row;
+    gap: 130px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
