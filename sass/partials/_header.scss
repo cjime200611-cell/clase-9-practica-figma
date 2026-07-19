@@ -10,6 +10,12 @@
     gap: 24px;
 }
 
+#button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+
 #sign-btn {
     border-style: none;
     padding: 5px 10px;
@@ -20,7 +26,7 @@
 
 #login-btn {
     border-style: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
     background-color: #f5f7fa;
     color: $color-primary;
     font-weight: bold;
@@ -31,7 +37,6 @@
     font-weight: 100;
     color: #000;
     text-decoration: none;
-    margin-top: 5px;
 }
 
 #logo {
