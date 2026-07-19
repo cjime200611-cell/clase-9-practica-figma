@@ -1,0 +1,41 @@
+.marketing-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.marketing-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.marketing-card {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-left: 4%;
+    margin-right: 4%;
+    align-self: flex-start;
+}
+
+.cards {
+    width: 245px;
+    height: 100px;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: #F5F7FA;
+    margin: 10px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 1px 3px $text-color;
+    margin-bottom: 40px;
+
+    a {
+        color: $color-primary;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    p {
+        font-weight: bold;
+    }
+}

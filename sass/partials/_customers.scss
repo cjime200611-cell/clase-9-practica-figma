@@ -1,0 +1,39 @@
+.customers {
+    background-color: #f5f7fa;
+}
+
+.customers-content {
+    width: 60%;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    line-height: 1.5;
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+.customers-principal-img {
+    width: 35%;
+    float: left;
+
+    img {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+}
+
+.customers-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.other-btn a {
+    color: $color-primary;
+    text-decoration: none;
+    font-weight: 600;
+}
