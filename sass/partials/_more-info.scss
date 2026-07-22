@@ -1,17 +1,19 @@
+#more-info {
+    display: flex;
+}
+
 .more-info-img {
-    width: 38%;
-    float: left;
+    flex-basis: 38%;
 
     img {
-        margin-left: 1%;
+        margin-left: 10%;
         width: 100%;
     }
 }
 
 .more-info-content {
-    width: 55%;
-    float: right;
-    margin-left: 4%;
+    flex-basis: 54%;
+    margin-left: 10%;
     margin-top: 70px;
     margin-bottom: 70px;
     line-height: 1.5;

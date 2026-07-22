@@ -1,22 +1,27 @@
-.help-local {
+#help-local {
     background-color: #F5F7FA;
     display: flex;
 }
 
 .help-local-content {
-    // width: 55%;
-    flex-basis: 55%;
+    flex-basis: 50%;
     margin-left: 5%;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    align-self: center;
 }
 
 .help-local-items {
     flex-basis: 38%;
-    margin-top: 50px;
-    // display: flex;
-    // flex-wrap: wrap;
-    gap: 80px;
     text-align: center;
-    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.items {
+    flex-basis: 50%;
+}
+
+.items-principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+

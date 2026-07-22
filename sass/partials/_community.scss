@@ -1,5 +1,11 @@
 .community-content {
     text-align: center;
+
+    h2 {
+        display: flex;
+        max-width: 550px;
+        margin: 0 auto;
+    }
 }
 
 .community-card {
@@ -18,4 +24,3 @@
     text-align: center;
     box-shadow: 1px 5px 3px $text-color;
 }
-

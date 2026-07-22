@@ -1,15 +1,16 @@
+.new-service-general {
+    display: flex;
+}
+
 .new-service-content {
-    width: 60%;
-    float: left;
+    flex-basis: 60%;
     margin-top: 100px;
     margin-left: 2%;
-    margin-bottom: 90px;
-    align-items: center;
+    margin-bottom: 90px
 }
 
 .new-service-img {
-    width: 33%;
-    float: left;
+    flex-basis: 33%;
     img {
         width: 90%;
         margin-left: 10%;

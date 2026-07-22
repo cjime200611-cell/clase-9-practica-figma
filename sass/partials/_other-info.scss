@@ -1,7 +1,10 @@
+#other-info {
+    display: flex;
+}
+
 .other-info-content {
-    width: 55%;
-    float: right;
-    margin-left: 4%;
+    flex-basis: 55%;
+    margin-left: 10%;
     margin-top: 90px;
     margin-bottom: 90px;
     align-items: center;
@@ -9,8 +12,7 @@
 }
 
 .other-info-img {
-    width: 38%;
-    float: left;
+    flex-basis: 38%;
     img {
         width: 100%;
         margin-top: 60px;

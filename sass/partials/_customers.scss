@@ -1,23 +1,23 @@
-.customers {
+#customers {
     background-color: #f5f7fa;
+    display: flex;
 }
 
 .customers-content {
-    width: 60%;
-    float: right;
+    flex-basis: 60%;
     margin-top: 20px;
+    margin-left: 2%;
     margin-bottom: 10px;
     align-items: center;
     line-height: 1.5;
 
-    h3 {
-        font-size: 1.5rem;
+    h2 {
+        font-size: 1.25rem;
     }
 }
 
 .customers-principal-img {
-    width: 35%;
-    float: left;
+    flex-basis: 35%;
 
     img {
         width: 80%;

@@ -424,14 +424,14 @@ p {
 }
 
 #nav {
-  width: 60%;
+  flex-basis: 60%;
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
 #button {
-  width: 20%;
+  flex-basis: 20%;
 }
 
 #sign-btn {
@@ -452,28 +452,29 @@ p {
 
 #nav a {
   font-size: 0.7;
-  font-weight: 100;
+  font-weight: 400;
   color: #000;
   text-decoration: none;
 }
 
 #logo {
   display: flex;
-  width: 20%;
+  flex-basis: 20%;
+}
+
+.new-service-general {
+  display: flex;
 }
 
 .new-service-content {
-  width: 60%;
-  float: left;
+  flex-basis: 60%;
   margin-top: 100px;
   margin-left: 2%;
   margin-bottom: 90px;
-  align-items: center;
 }
 
 .new-service-img {
-  width: 33%;
-  float: left;
+  flex-basis: 33%;
 }
 .new-service-img img {
   width: 90%;
@@ -496,6 +497,11 @@ p {
 .community-content {
   text-align: center;
 }
+.community-content h2 {
+  display: flex;
+  max-width: 550px;
+  margin: 0 auto;
+}
 
 .community-card {
   display: flex;
@@ -514,48 +520,60 @@ p {
   box-shadow: 1px 5px 3px #717171;
 }
 
+#more-info {
+  display: flex;
+}
+
 .more-info-img {
-  width: 38%;
-  float: left;
+  flex-basis: 38%;
 }
 .more-info-img img {
-  margin-left: 1%;
+  margin-left: 10%;
   width: 100%;
 }
 
 .more-info-content {
-  width: 55%;
-  float: right;
-  margin-left: 4%;
+  flex-basis: 54%;
+  margin-left: 10%;
   margin-top: 70px;
   margin-bottom: 70px;
   line-height: 1.5;
 }
 
-.help-local {
+#help-local {
   background-color: #F5F7FA;
   display: flex;
 }
 
 .help-local-content {
-  flex-basis: 55%;
+  flex-basis: 50%;
   margin-left: 5%;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  align-self: center;
 }
 
 .help-local-items {
   flex-basis: 38%;
-  margin-top: 50px;
-  gap: 80px;
   text-align: center;
-  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.items {
+  flex-basis: 50%;
+}
+
+.items-principal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#other-info {
+  display: flex;
 }
 
 .other-info-content {
-  width: 55%;
-  float: right;
-  margin-left: 4%;
+  flex-basis: 55%;
+  margin-left: 10%;
   margin-top: 90px;
   margin-bottom: 90px;
   align-items: center;
@@ -563,8 +581,7 @@ p {
 }
 
 .other-info-img {
-  width: 38%;
-  float: left;
+  flex-basis: 38%;
 }
 .other-info-img img {
   width: 100%;
@@ -573,25 +590,25 @@ p {
   margin-left: 10%;
 }
 
-.customers {
+#customers {
   background-color: #f5f7fa;
+  display: flex;
 }
 
 .customers-content {
-  width: 60%;
-  float: right;
+  flex-basis: 60%;
   margin-top: 20px;
+  margin-left: 2%;
   margin-bottom: 10px;
   align-items: center;
   line-height: 1.5;
 }
-.customers-content h3 {
-  font-size: 1.5rem;
+.customers-content h2 {
+  font-size: 1.25rem;
 }
 
 .customers-principal-img {
-  width: 35%;
-  float: left;
+  flex-basis: 35%;
 }
 .customers-principal-img img {
   width: 80%;
@@ -613,7 +630,7 @@ p {
 
 .marketing-content {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 

@@ -5,14 +5,14 @@
 }
 
 #nav {
-    width: 60%;
+    flex-basis: 60%;
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
 #button {
-    width: 20%;
+    flex-basis: 20%;
 }
 
 #sign-btn {
@@ -33,12 +33,12 @@
 
 #nav a {
     font-size: 0.70;
-    font-weight: 100;
+    font-weight: 400;
     color: #000;
     text-decoration: none;
 }
 
 #logo {
     display: flex;
-    width: 20%;
+    flex-basis: 20%;
 }
