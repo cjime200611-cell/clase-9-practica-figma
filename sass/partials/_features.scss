@@ -5,8 +5,7 @@
 .feature-img {
     display: flex;
     flex-direction: row;
-    gap: 130px;
-    align-items: center;
+    gap: 120px;
+    justify-content: center;
     margin-bottom: 50px;
-    margin-left: 8%;
 }
