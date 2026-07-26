@@ -15,12 +15,12 @@
 }
 
 .card {
-    width: 270px;
+    flex-basis: 250px;
     height: 230px;
     padding: 25px;
     border: 1px solid white;
     margin: 15px;
     border-radius: 3px;
     text-align: center;
-    box-shadow: 1px 5px 3px $text-color;
+    box-shadow: 1px 5px 6px 1px $text-color;
 }
