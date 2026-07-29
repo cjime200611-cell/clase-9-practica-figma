@@ -344,6 +344,12 @@ template {
   padding: 0 15px;
 }
 
+.container-big {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -380,7 +386,6 @@ html {
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  background-color: #F5F7FA;
 }
 
 h1 {
@@ -425,8 +430,13 @@ p {
 }
 
 #header {
-  margin: 30px 0px;
+  background-color: #F5F7FA;
+}
+
+#header-container {
+  margin: 30px auto;
   display: flex;
+  justify-content: center;
 }
 
 #nav {
@@ -470,6 +480,10 @@ p {
   flex-basis: 30%;
 }
 
+#new-service {
+  background-color: #F5F7FA;
+}
+
 .new-service-general {
   display: flex;
 }
@@ -492,6 +506,7 @@ p {
 
 .features-content {
   text-align: center;
+  margin-top: 20px;
 }
 
 .feature-img {
@@ -528,7 +543,7 @@ p {
   box-shadow: 1px 5px 6px 1px #717171;
 }
 
-#more-info {
+#more-info-container {
   display: flex;
 }
 
@@ -550,6 +565,9 @@ p {
 
 #help-local {
   background-color: #F5F7FA;
+}
+
+#help-local-container {
   display: flex;
 }
 
@@ -560,6 +578,7 @@ p {
 }
 
 .help-local-items {
+  display: flex;
   flex-basis: 38%;
   text-align: center;
   margin-top: 20px;
@@ -567,7 +586,13 @@ p {
 }
 
 .items {
+  display: flex;
   flex-basis: 50%;
+  gap: 15px;
+}
+
+.items-img {
+  align-items: center;
 }
 
 .items-principal {
@@ -575,7 +600,7 @@ p {
   flex-wrap: wrap;
 }
 
-#other-info {
+#other-info-container {
   display: flex;
 }
 
@@ -600,6 +625,9 @@ p {
 
 #customers {
   background-color: #f5f7fa;
+}
+
+#customers-container {
   display: flex;
 }
 
@@ -628,6 +656,12 @@ p {
   display: flex;
   flex-direction: row;
   gap: 35px;
+}
+
+.other-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .other-btn a {
@@ -683,6 +717,13 @@ p {
   font-size: 1.1rem;
 }
 
+.card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
 #demo {
   background-color: #f5f7fa;
 }
@@ -703,10 +744,13 @@ p {
 
 #footer {
   background-color: #263238;
+}
+
+#footer-container {
   display: flex;
   gap: 24px;
 }
-#footer p {
+#footer-container p {
   font-size: 0.875rem;
   color: white;
 }

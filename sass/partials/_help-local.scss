@@ -1,5 +1,8 @@
 #help-local {
     background-color: #F5F7FA;
+}
+
+#help-local-container {
     display: flex;
 }
 
@@ -10,6 +13,7 @@
 }
 
 .help-local-items {
+    display: flex;
     flex-basis: 38%;
     text-align: center;
     margin-top: 20px;
@@ -17,7 +21,13 @@
 }
 
 .items {
+    display: flex;
     flex-basis: 50%;
+    gap: 15px;
+}
+
+.items-img {
+    align-items: center;
 }
 
 .items-principal{

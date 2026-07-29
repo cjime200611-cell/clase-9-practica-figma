@@ -1,5 +1,11 @@
 /* Helper */
 .container {
+    max-width: $container-small;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-big {
     max-width: $container-big;
     margin: 0 auto;
     padding: 0 15px;

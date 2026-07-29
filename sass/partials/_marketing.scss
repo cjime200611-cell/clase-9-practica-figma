@@ -3,6 +3,7 @@
     margin-top: 30px;
 
     p {
+        
         width: 55%;
         margin: 0 auto;
     }
@@ -46,4 +47,11 @@
         font-weight: 600;
         font-size: 1.10rem;
     }
+}
+
+.card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
