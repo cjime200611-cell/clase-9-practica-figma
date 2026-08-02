@@ -344,18 +344,6 @@ template {
   padding: 0 15px;
 }
 
-.container-big {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .btn {
   font-size: 1rem;
   font-weight: 500;
@@ -386,10 +374,8 @@ html {
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  max-width: 1440px;
-  width: 100%;
+  max-width: 100%;
   margin-inline: auto;
-  padding-inline: 20px;
   box-sizing: border-box;
 }
 
