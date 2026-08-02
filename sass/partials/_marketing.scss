@@ -1,6 +1,9 @@
+#marketing {
+    margin-top: 30px;
+}
+
 .marketing-content {
     text-align: center;
-    margin-top: 30px;
 
     p {
         
@@ -18,7 +21,7 @@
 .marketing-card {
     display: flex;
     flex-direction: row;
-    gap: 90px;
+    gap: 80px;
     margin-left: 4%;
     margin-right: 4%;
     align-self: flex-start;

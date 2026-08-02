@@ -1,14 +1,10 @@
-#help-local {
-    background-color: #F5F7FA;
-}
-
 #help-local-container {
     display: flex;
+    justify-content: center;
 }
 
 .help-local-content {
     flex-basis: 50%;
-    margin-left: 5%;
     align-self: center;
 }
 
@@ -16,14 +12,15 @@
     display: flex;
     flex-basis: 38%;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .items {
     display: flex;
     flex-basis: 50%;
     gap: 15px;
+    justify-content: center;
 }
 
 .items-img {

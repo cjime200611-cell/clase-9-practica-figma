@@ -1,17 +1,19 @@
-#demo {
-    background-color: #f5f7fa;
+.demo {
+    display: flex;
+    height: 300px;
+    align-items: center;
 }
 
 .demo-content {
+    display: flex;
     width: 73.91%;
     margin: 0 auto;
-    margin-top: 32px;
     margin-bottom: 32px;
     text-align: center;
+    align-items: center;
 }
 
 .demo-btn {
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
 }
