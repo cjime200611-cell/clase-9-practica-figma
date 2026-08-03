@@ -339,7 +339,7 @@ template {
 
 /* Helper */
 .container {
-  max-width: 1200px;
+  max-width: 1440;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -365,6 +365,12 @@ template {
 
 .space-wrapper {
   padding: 60px 0;
+}
+
+a {
+  text-decoration: none;
+  transition: color 1s ease;
+  color: inherit;
 }
 
 html {
@@ -664,60 +670,47 @@ p {
 }
 
 #marketing {
-  margin-top: 30px;
-}
-
-.marketing-content {
+  width: 100%;
   text-align: center;
-}
-.marketing-content p {
-  width: 55%;
-  margin: 0 auto;
+  padding: 64px;
 }
 
-.marketing-img {
+.marketing-grid {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
 }
-
-.marketing-card {
-  display: flex;
-  flex-direction: row;
-  gap: 80px;
-  margin-left: 4%;
-  margin-right: 4%;
-  align-self: flex-start;
-  margin-top: -130px;
+.marketing-grid .card-item {
+  position: relative;
+  width: 31%;
+  border-radius: 8px;
 }
-
-.cards {
-  width: 26.41%;
-  height: 140px;
-  padding: 20px;
-  padding-bottom: 20px;
+.marketing-grid .card-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+.marketing-grid .card-text {
+  position: relative;
+  margin: -60px auto 0;
+  width: 85%;
   background-color: #F5F7FA;
-  border-radius: 6px;
-  text-align: center;
-  box-shadow: 0px 1px 3px #717171;
-  margin-bottom: 50px;
-}
-.cards a {
-  color: #4CAF4F;
-  text-decoration: none;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(171, 190, 206, 0.4);
   font-weight: 600;
-  font-size: 1.2rem;
 }
-.cards p {
-  font-weight: 600;
-  font-size: 1.1rem;
+.marketing-grid .card-text p {
+  font-size: 20px;
+  color: #717171;
+  margin-bottom: 16px;
 }
-
-.card-btn {
+.marketing-grid .card-text .card-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
+  color: #4CAF4F;
 }
 
 .demo {
@@ -742,11 +735,13 @@ p {
 
 #footer {
   background-color: #263238;
+  width: 100%;
 }
 
 #footer-container {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 #footer-container p {
   font-size: 0.875rem;
@@ -758,7 +753,6 @@ p {
   align-self: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 8%;
 }
 
 .footer-logo {

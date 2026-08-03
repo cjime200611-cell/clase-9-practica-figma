@@ -27,3 +27,9 @@
 .space-wrapper {
     padding: 60px 0;
 }
+
+a {
+    text-decoration: none;
+    transition: color 1s ease;
+    color: inherit;
+}
